@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="&lt;!DOCTYPE html&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;!DOCTYPE html&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;html&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;html&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;head&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;head&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;title&gt;CRUD de Librería&lt;/title&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;title&gt;CRUD de Librería&lt;/title&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ /&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ /&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;style&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;style&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    body {" elementType="Argument">
+            <stringProp name="Argument.name">    body {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      font-family: Arial, sans-serif;" elementType="Argument">
+            <stringProp name="Argument.name">      font-family: Arial, sans-serif;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #f4f4f4;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #f4f4f4;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 20px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 20px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    .container {" elementType="Argument">
+            <stringProp name="Argument.name">    .container {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      max-width: 800px;" elementType="Argument">
+            <stringProp name="Argument.name">      max-width: 800px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin: 0 auto;" elementType="Argument">
+            <stringProp name="Argument.name">      margin: 0 auto;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #fff;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #fff;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-radius: 5px;" elementType="Argument">
+            <stringProp name="Argument.name">      border-radius: 5px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 20px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 20px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);" elementType="Argument">
+            <stringProp name="Argument.name">      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    h1 {" elementType="Argument">
+            <stringProp name="Argument.name">    h1 {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      text-align: center;" elementType="Argument">
+            <stringProp name="Argument.name">      text-align: center;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    table {" elementType="Argument">
+            <stringProp name="Argument.name">    table {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      width: 100%;" elementType="Argument">
+            <stringProp name="Argument.name">      width: 100%;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-collapse: collapse;" elementType="Argument">
+            <stringProp name="Argument.name">      border-collapse: collapse;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    th, td {" elementType="Argument">
+            <stringProp name="Argument.name">    th, td {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 8px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 8px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      text-align: left;" elementType="Argument">
+            <stringProp name="Argument.name">      text-align: left;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-bottom: 1px solid #ddd;" elementType="Argument">
+            <stringProp name="Argument.name">      border-bottom: 1px solid #ddd;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    th {" elementType="Argument">
+            <stringProp name="Argument.name">    th {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #f5f5f5;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #f5f5f5;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    form {" elementType="Argument">
+            <stringProp name="Argument.name">    form {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      display: flex;" elementType="Argument">
+            <stringProp name="Argument.name">      display: flex;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      justify-content: center;" elementType="Argument">
+            <stringProp name="Argument.name">      justify-content: center;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      align-items: center;" elementType="Argument">
+            <stringProp name="Argument.name">      align-items: center;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin-bottom: 20px;" elementType="Argument">
+            <stringProp name="Argument.name">      margin-bottom: 20px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    form input[type=&quot;text&quot;] {" elementType="Argument">
+            <stringProp name="Argument.name">    form input[type=&quot;text&quot;] {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin-right: 10px;" elementType="Argument">
+            <stringProp name="Argument.name">      margin-right: 10px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    button {" elementType="Argument">
+            <stringProp name="Argument.name">    button {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #4CAF50;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #4CAF50;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      color: #fff;" elementType="Argument">
+            <stringProp name="Argument.name">      color: #fff;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 8px 12px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 8px 12px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border: none;" elementType="Argument">
+            <stringProp name="Argument.name">      border: none;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-radius: 4px;" elementType="Argument">
+            <stringProp name="Argument.name">      border-radius: 4px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      cursor: pointer;" elementType="Argument">
+            <stringProp name="Argument.name">      cursor: pointer;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    button.edit {" elementType="Argument">
+            <stringProp name="Argument.name">    button.edit {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #008CBA;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #008CBA;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin-right: 5px;" elementType="Argument">
+            <stringProp name="Argument.name">      margin-right: 5px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    button.delete {" elementType="Argument">
+            <stringProp name="Argument.name">    button.delete {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #f44336;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #f44336;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;/style&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;/style&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/head&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/head&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;body&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;body&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;div class=&quot;container&quot;&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;div class=&quot;container&quot;&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;h1&gt;CRUD de Librería&lt;/h1&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;h1&gt;CRUD de Librería&lt;/h1&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;form id=&quot;bookForm&quot;&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;form id=&quot;bookForm&quot;&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;titleInput&quot; placeholder=&quot;Título del libro&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;titleInput&quot; placeholder=&quot;Título del libro&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;authorInput&quot; placeholder=&quot;Autor&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;authorInput&quot; placeholder=&quot;Autor&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;yearInput&quot; placeholder=&quot;Año de publicación&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;yearInput&quot; placeholder=&quot;Año de publicación&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;priceInput&quot; placeholder=&quot;Precio&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;priceInput&quot; placeholder=&quot;Precio&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;button type=&quot;submit&quot;&gt;Agregar libro&lt;/button&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;button type=&quot;submit&quot;&gt;Agregar libro&lt;/button&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;/form&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;/form&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;table id=&quot;bookTable&quot;&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;table id=&quot;bookTable&quot;&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;thead&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;thead&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        &lt;tr&gt;" elementType="Argument">
+            <stringProp name="Argument.name">        &lt;tr&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Título&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Título&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Autor&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Autor&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Año de publicación&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Año de publicación&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Precio&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Precio&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Acciones&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Acciones&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        &lt;/tr&gt;" elementType="Argument">
+            <stringProp name="Argument.name">        &lt;/tr&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;/thead&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;/thead&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;tbody&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;tbody&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;/tbody&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;/tbody&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;/table&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;/table&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;/div&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;/div&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;script&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;script&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    var bookForm = document.getElementById(&quot;bookForm&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">    var bookForm = document.getElementById(&quot;bookForm&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    var bookTable = document.getElementById(&quot;bookTable&quot;).getElementsByTagName(&quot;tbody&quot;)[0];" elementType="Argument">
+            <stringProp name="Argument.name">    var bookTable = document.getElementById(&quot;bookTable&quot;).getElementsByTagName(&quot;tbody&quot;)[0];</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    bookForm.addEventListener(&quot;submit&quot;, function(event) {" elementType="Argument">
+            <stringProp name="Argument.name">    bookForm.addEventListener(&quot;submit&quot;, function(event) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      event.preventDefault();" elementType="Argument">
+            <stringProp name="Argument.name">      event.preventDefault();</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var titleInput = document.getElementById(&quot;titleInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var titleInput = document.getElementById(&quot;titleInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var authorInput = document.getElementById(&quot;authorInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var authorInput = document.getElementById(&quot;authorInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var yearInput = document.getElementById(&quot;yearInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var yearInput = document.getElementById(&quot;yearInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var priceInput = document.getElementById(&quot;priceInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var priceInput = document.getElementById(&quot;priceInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var title = titleInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var title = titleInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var author = authorInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var author = authorInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var year = yearInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var year = yearInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var price = priceInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var price = priceInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var newRow = bookTable.insertRow();" elementType="Argument">
+            <stringProp name="Argument.name">      var newRow = bookTable.insertRow();</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      newRow.innerHTML = &quot;&lt;td&gt;&quot; + title + &quot;&lt;/td&gt;&lt;td&gt;&quot; + author + &quot;&lt;/td&gt;&lt;td&gt;&quot; + year + &quot;&lt;/td&gt;&lt;td&gt;&quot; + price + &quot;&lt;/td&gt;&lt;td&gt;&lt;button class=&apos;edit&apos;&gt;Editar&lt;/button&gt;&lt;button class=&apos;delete&apos;&gt;Eliminar&lt;/button&gt;&lt;/td&gt;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      newRow.innerHTML = &quot;&lt;td&gt;&quot; + title + &quot;&lt;/td&gt;&lt;td&gt;&quot; + author + &quot;&lt;/td&gt;&lt;td&gt;&quot; + year + &quot;&lt;/td&gt;&lt;td&gt;&quot; + price + &quot;&lt;/td&gt;&lt;td&gt;&lt;button class=&apos;edit&apos;&gt;Editar&lt;/button&gt;&lt;button class=&apos;delete&apos;&gt;Eliminar&lt;/button&gt;&lt;/td&gt;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      titleInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      titleInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      authorInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      authorInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      yearInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      yearInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      priceInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      priceInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      attachEditAndDeleteListeners();" elementType="Argument">
+            <stringProp name="Argument.name">      attachEditAndDeleteListeners();</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    });" elementType="Argument">
+            <stringProp name="Argument.name">    });</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    function attachEditAndDeleteListeners() {" elementType="Argument">
+            <stringProp name="Argument.name">    function attachEditAndDeleteListeners() {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var editButtons = document.getElementsByClassName(&quot;edit&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var editButtons = document.getElementsByClassName(&quot;edit&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var deleteButtons = document.getElementsByClassName(&quot;delete&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var deleteButtons = document.getElementsByClassName(&quot;delete&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      for (var i = 0; i &lt; editButtons.length; i++) {" elementType="Argument">
+            <stringProp name="Argument.name">      for (var i = 0; i &lt; editButtons.length; i++) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        editButtons[i].addEventListener(&quot;click&quot;, function(event) {" elementType="Argument">
+            <stringProp name="Argument.name">        editButtons[i].addEventListener(&quot;click&quot;, function(event) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var row = event.target.parentNode.parentNode;" elementType="Argument">
+            <stringProp name="Argument.name">          var row = event.target.parentNode.parentNode;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var cells = row.getElementsByTagName(&quot;td&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var cells = row.getElementsByTagName(&quot;td&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var title = cells[0].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var title = cells[0].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var author = cells[1].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var author = cells[1].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var year = cells[2].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var year = cells[2].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var price = cells[3].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var price = cells[3].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var titleInput = document.getElementById(&quot;titleInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var titleInput = document.getElementById(&quot;titleInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var authorInput = document.getElementById(&quot;authorInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var authorInput = document.getElementById(&quot;authorInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var yearInput = document.getElementById(&quot;yearInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var yearInput = document.getElementById(&quot;yearInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var priceInput = document.getElementById(&quot;priceInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var priceInput = document.getElementById(&quot;priceInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          titleInput.value = title;" elementType="Argument">
+            <stringProp name="Argument.name">          titleInput.value = title;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          authorInput.value = author;" elementType="Argument">
+            <stringProp name="Argument.name">          authorInput.value = author;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          yearInput.value = year;" elementType="Argument">
+            <stringProp name="Argument.name">          yearInput.value = year;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          priceInput.value = price;" elementType="Argument">
+            <stringProp name="Argument.name">          priceInput.value = price;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          bookTable.removeChild(row);" elementType="Argument">
+            <stringProp name="Argument.name">          bookTable.removeChild(row);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        });" elementType="Argument">
+            <stringProp name="Argument.name">        });</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      }" elementType="Argument">
+            <stringProp name="Argument.name">      }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      for (var i = 0; i &lt; deleteButtons.length; i++) {" elementType="Argument">
+            <stringProp name="Argument.name">      for (var i = 0; i &lt; deleteButtons.length; i++) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        deleteButtons[i].addEventListener(&quot;click&quot;, function(event) {" elementType="Argument">
+            <stringProp name="Argument.name">        deleteButtons[i].addEventListener(&quot;click&quot;, function(event) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var row = event.target.parentNode.parentNode;" elementType="Argument">
+            <stringProp name="Argument.name">          var row = event.target.parentNode.parentNode;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          bookTable.removeChild(row);" elementType="Argument">
+            <stringProp name="Argument.name">          bookTable.removeChild(row);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        });" elementType="Argument">
+            <stringProp name="Argument.name">        });</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      }" elementType="Argument">
+            <stringProp name="Argument.name">      }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;/script&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;/script&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/body&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/body&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/html&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/html&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;!DOCTYPE html&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;!DOCTYPE html&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;html&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;html&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;head&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;head&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;title&gt;CRUD de Librería&lt;/title&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;title&gt;CRUD de Librería&lt;/title&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ /&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ /&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;style&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;style&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    body {" elementType="Argument">
+            <stringProp name="Argument.name">    body {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      font-family: Arial, sans-serif;" elementType="Argument">
+            <stringProp name="Argument.name">      font-family: Arial, sans-serif;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #f4f4f4;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #f4f4f4;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 20px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 20px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    .container {" elementType="Argument">
+            <stringProp name="Argument.name">    .container {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      max-width: 800px;" elementType="Argument">
+            <stringProp name="Argument.name">      max-width: 800px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin: 0 auto;" elementType="Argument">
+            <stringProp name="Argument.name">      margin: 0 auto;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #fff;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #fff;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-radius: 5px;" elementType="Argument">
+            <stringProp name="Argument.name">      border-radius: 5px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 20px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 20px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);" elementType="Argument">
+            <stringProp name="Argument.name">      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    h1 {" elementType="Argument">
+            <stringProp name="Argument.name">    h1 {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      text-align: center;" elementType="Argument">
+            <stringProp name="Argument.name">      text-align: center;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    table {" elementType="Argument">
+            <stringProp name="Argument.name">    table {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      width: 100%;" elementType="Argument">
+            <stringProp name="Argument.name">      width: 100%;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-collapse: collapse;" elementType="Argument">
+            <stringProp name="Argument.name">      border-collapse: collapse;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    th, td {" elementType="Argument">
+            <stringProp name="Argument.name">    th, td {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 8px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 8px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      text-align: left;" elementType="Argument">
+            <stringProp name="Argument.name">      text-align: left;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-bottom: 1px solid #ddd;" elementType="Argument">
+            <stringProp name="Argument.name">      border-bottom: 1px solid #ddd;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    th {" elementType="Argument">
+            <stringProp name="Argument.name">    th {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #f5f5f5;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #f5f5f5;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    form {" elementType="Argument">
+            <stringProp name="Argument.name">    form {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      display: flex;" elementType="Argument">
+            <stringProp name="Argument.name">      display: flex;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      justify-content: center;" elementType="Argument">
+            <stringProp name="Argument.name">      justify-content: center;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      align-items: center;" elementType="Argument">
+            <stringProp name="Argument.name">      align-items: center;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin-bottom: 20px;" elementType="Argument">
+            <stringProp name="Argument.name">      margin-bottom: 20px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    form input[type=&quot;text&quot;] {" elementType="Argument">
+            <stringProp name="Argument.name">    form input[type=&quot;text&quot;] {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin-right: 10px;" elementType="Argument">
+            <stringProp name="Argument.name">      margin-right: 10px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    button {" elementType="Argument">
+            <stringProp name="Argument.name">    button {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #4CAF50;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #4CAF50;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      color: #fff;" elementType="Argument">
+            <stringProp name="Argument.name">      color: #fff;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      padding: 8px 12px;" elementType="Argument">
+            <stringProp name="Argument.name">      padding: 8px 12px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border: none;" elementType="Argument">
+            <stringProp name="Argument.name">      border: none;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      border-radius: 4px;" elementType="Argument">
+            <stringProp name="Argument.name">      border-radius: 4px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      cursor: pointer;" elementType="Argument">
+            <stringProp name="Argument.name">      cursor: pointer;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    button.edit {" elementType="Argument">
+            <stringProp name="Argument.name">    button.edit {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #008CBA;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #008CBA;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      margin-right: 5px;" elementType="Argument">
+            <stringProp name="Argument.name">      margin-right: 5px;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    button.delete {" elementType="Argument">
+            <stringProp name="Argument.name">    button.delete {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      background-color: #f44336;" elementType="Argument">
+            <stringProp name="Argument.name">      background-color: #f44336;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;/style&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;/style&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/head&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/head&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;body&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;body&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;div class=&quot;container&quot;&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;div class=&quot;container&quot;&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;h1&gt;CRUD de Librería&lt;/h1&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;h1&gt;CRUD de Librería&lt;/h1&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;form id=&quot;bookForm&quot;&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;form id=&quot;bookForm&quot;&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;titleInput&quot; placeholder=&quot;Título del libro&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;titleInput&quot; placeholder=&quot;Título del libro&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;authorInput&quot; placeholder=&quot;Autor&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;authorInput&quot; placeholder=&quot;Autor&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;yearInput&quot; placeholder=&quot;Año de publicación&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;yearInput&quot; placeholder=&quot;Año de publicación&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;input type=&quot;text&quot; id=&quot;priceInput&quot; placeholder=&quot;Precio&quot; required&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;input type=&quot;text&quot; id=&quot;priceInput&quot; placeholder=&quot;Precio&quot; required&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;button type=&quot;submit&quot;&gt;Agregar libro&lt;/button&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;button type=&quot;submit&quot;&gt;Agregar libro&lt;/button&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;/form&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;/form&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;table id=&quot;bookTable&quot;&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;table id=&quot;bookTable&quot;&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;thead&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;thead&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        &lt;tr&gt;" elementType="Argument">
+            <stringProp name="Argument.name">        &lt;tr&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Título&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Título&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Autor&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Autor&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Año de publicación&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Año de publicación&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Precio&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Precio&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          &lt;th&gt;Acciones&lt;/th&gt;" elementType="Argument">
+            <stringProp name="Argument.name">          &lt;th&gt;Acciones&lt;/th&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        &lt;/tr&gt;" elementType="Argument">
+            <stringProp name="Argument.name">        &lt;/tr&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;/thead&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;/thead&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;tbody&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;tbody&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      &lt;/tbody&gt;" elementType="Argument">
+            <stringProp name="Argument.name">      &lt;/tbody&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    &lt;/table&gt;" elementType="Argument">
+            <stringProp name="Argument.name">    &lt;/table&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;/div&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;/div&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;script&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;script&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    var bookForm = document.getElementById(&quot;bookForm&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">    var bookForm = document.getElementById(&quot;bookForm&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    var bookTable = document.getElementById(&quot;bookTable&quot;).getElementsByTagName(&quot;tbody&quot;)[0];" elementType="Argument">
+            <stringProp name="Argument.name">    var bookTable = document.getElementById(&quot;bookTable&quot;).getElementsByTagName(&quot;tbody&quot;)[0];</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    bookForm.addEventListener(&quot;submit&quot;, function(event) {" elementType="Argument">
+            <stringProp name="Argument.name">    bookForm.addEventListener(&quot;submit&quot;, function(event) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      event.preventDefault();" elementType="Argument">
+            <stringProp name="Argument.name">      event.preventDefault();</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var titleInput = document.getElementById(&quot;titleInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var titleInput = document.getElementById(&quot;titleInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var authorInput = document.getElementById(&quot;authorInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var authorInput = document.getElementById(&quot;authorInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var yearInput = document.getElementById(&quot;yearInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var yearInput = document.getElementById(&quot;yearInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var priceInput = document.getElementById(&quot;priceInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var priceInput = document.getElementById(&quot;priceInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var title = titleInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var title = titleInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var author = authorInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var author = authorInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var year = yearInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var year = yearInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var price = priceInput.value;" elementType="Argument">
+            <stringProp name="Argument.name">      var price = priceInput.value;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var newRow = bookTable.insertRow();" elementType="Argument">
+            <stringProp name="Argument.name">      var newRow = bookTable.insertRow();</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      newRow.innerHTML = &quot;&lt;td&gt;&quot; + title + &quot;&lt;/td&gt;&lt;td&gt;&quot; + author + &quot;&lt;/td&gt;&lt;td&gt;&quot; + year + &quot;&lt;/td&gt;&lt;td&gt;&quot; + price + &quot;&lt;/td&gt;&lt;td&gt;&lt;button class=&apos;edit&apos;&gt;Editar&lt;/button&gt;&lt;button class=&apos;delete&apos;&gt;Eliminar&lt;/button&gt;&lt;/td&gt;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      newRow.innerHTML = &quot;&lt;td&gt;&quot; + title + &quot;&lt;/td&gt;&lt;td&gt;&quot; + author + &quot;&lt;/td&gt;&lt;td&gt;&quot; + year + &quot;&lt;/td&gt;&lt;td&gt;&quot; + price + &quot;&lt;/td&gt;&lt;td&gt;&lt;button class=&apos;edit&apos;&gt;Editar&lt;/button&gt;&lt;button class=&apos;delete&apos;&gt;Eliminar&lt;/button&gt;&lt;/td&gt;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      titleInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      titleInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      authorInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      authorInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      yearInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      yearInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      priceInput.value = &quot;&quot;;" elementType="Argument">
+            <stringProp name="Argument.name">      priceInput.value = &quot;&quot;;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      attachEditAndDeleteListeners();" elementType="Argument">
+            <stringProp name="Argument.name">      attachEditAndDeleteListeners();</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    });" elementType="Argument">
+            <stringProp name="Argument.name">    });</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    function attachEditAndDeleteListeners() {" elementType="Argument">
+            <stringProp name="Argument.name">    function attachEditAndDeleteListeners() {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var editButtons = document.getElementsByClassName(&quot;edit&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var editButtons = document.getElementsByClassName(&quot;edit&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      var deleteButtons = document.getElementsByClassName(&quot;delete&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">      var deleteButtons = document.getElementsByClassName(&quot;delete&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      for (var i = 0; i &lt; editButtons.length; i++) {" elementType="Argument">
+            <stringProp name="Argument.name">      for (var i = 0; i &lt; editButtons.length; i++) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        editButtons[i].addEventListener(&quot;click&quot;, function(event) {" elementType="Argument">
+            <stringProp name="Argument.name">        editButtons[i].addEventListener(&quot;click&quot;, function(event) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var row = event.target.parentNode.parentNode;" elementType="Argument">
+            <stringProp name="Argument.name">          var row = event.target.parentNode.parentNode;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var cells = row.getElementsByTagName(&quot;td&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var cells = row.getElementsByTagName(&quot;td&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var title = cells[0].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var title = cells[0].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var author = cells[1].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var author = cells[1].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var year = cells[2].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var year = cells[2].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var price = cells[3].textContent;" elementType="Argument">
+            <stringProp name="Argument.name">          var price = cells[3].textContent;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var titleInput = document.getElementById(&quot;titleInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var titleInput = document.getElementById(&quot;titleInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var authorInput = document.getElementById(&quot;authorInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var authorInput = document.getElementById(&quot;authorInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var yearInput = document.getElementById(&quot;yearInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var yearInput = document.getElementById(&quot;yearInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var priceInput = document.getElementById(&quot;priceInput&quot;);" elementType="Argument">
+            <stringProp name="Argument.name">          var priceInput = document.getElementById(&quot;priceInput&quot;);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          titleInput.value = title;" elementType="Argument">
+            <stringProp name="Argument.name">          titleInput.value = title;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          authorInput.value = author;" elementType="Argument">
+            <stringProp name="Argument.name">          authorInput.value = author;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          yearInput.value = year;" elementType="Argument">
+            <stringProp name="Argument.name">          yearInput.value = year;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          priceInput.value = price;" elementType="Argument">
+            <stringProp name="Argument.name">          priceInput.value = price;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          bookTable.removeChild(row);" elementType="Argument">
+            <stringProp name="Argument.name">          bookTable.removeChild(row);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        });" elementType="Argument">
+            <stringProp name="Argument.name">        });</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      }" elementType="Argument">
+            <stringProp name="Argument.name">      }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      for (var i = 0; i &lt; deleteButtons.length; i++) {" elementType="Argument">
+            <stringProp name="Argument.name">      for (var i = 0; i &lt; deleteButtons.length; i++) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        deleteButtons[i].addEventListener(&quot;click&quot;, function(event) {" elementType="Argument">
+            <stringProp name="Argument.name">        deleteButtons[i].addEventListener(&quot;click&quot;, function(event) {</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          var row = event.target.parentNode.parentNode;" elementType="Argument">
+            <stringProp name="Argument.name">          var row = event.target.parentNode.parentNode;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="          bookTable.removeChild(row);" elementType="Argument">
+            <stringProp name="Argument.name">          bookTable.removeChild(row);</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="        });" elementType="Argument">
+            <stringProp name="Argument.name">        });</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="      }" elementType="Argument">
+            <stringProp name="Argument.name">      }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="    }" elementType="Argument">
+            <stringProp name="Argument.name">    }</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="  &lt;/script&gt;" elementType="Argument">
+            <stringProp name="Argument.name">  &lt;/script&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/body&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/body&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="&lt;/html&gt;" elementType="Argument">
+            <stringProp name="Argument.name">&lt;/html&gt;</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>

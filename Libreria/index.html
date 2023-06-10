@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .title {
+      color: rgb(241, 113, 8); /* Cambia "red" por el color que desees */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="title">Iniciar sesión</h1>
+</body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("LOGOL.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #ffffff00;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 95%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #d97604;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Usuario" required>
+      <div id="usernameError" class="error"></div>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      <div id="passwordError" class="error"></div>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </div>
+
+  <script>
+   document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Evitar que se envíe el formulario
+
+      // Obtener los valores ingresados en el formulario
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Validar los campos del formulario
+      var isValid = true;
+      var usernameError = document.getElementById("usernameError");
+      var passwordError = document.getElementById("passwordError");
+
+      if (username.trim() === "") {
+        usernameError.textContent = "El campo Usuario es obligatorio";
+        isValid = false;
+      } else {
+        usernameError.textContent = "";
+      }
+
+      if (password.trim() === "") {
+        passwordError.textContent = "El campo Contraseña es obligatorio";
+        isValid = false;
+      } else {
+        passwordError.textContent = "";
+      }
+
+      if (isValid) {
+        // Verificar las credenciales del usuario
+        if (username === "juan" && password === "1234") {
+          // Guardar los datos en el almacenamiento local
+          localStorage.setItem("username", username);
+          localStorage.setItem("password", password);
+
+          // Redirigir a otra página
+          window.location.href = "dashboard.html";
+        } else {
+          // Mostrar mensaje de error para credenciales inválidas
+          usernameError.textContent = "Credenciales inválidas";
+          passwordError.textContent = "Credenciales inválidas";
+        }
+      }
+    });
+  </script>
+</body>
+</html>
